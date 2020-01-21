@@ -36,6 +36,7 @@ class Concetration {
     }
     
     init(numberOfPairsOfCards: Int) {
+        assert(numberOfPairsOfCards > 0, "Concetration#init(numberOfPairsOfCards\(numberOfPairsOfCards)), there must be at least one pair of cards")
         for _ in 0..<numberOfPairsOfCards {
             let card = Card()
             cards += [card, card]
@@ -45,6 +46,7 @@ class Concetration {
     }
     
     func chooseCard(at index: Int) {
+        assert(cards.indices.contains(index), "Concetration#chooseCard(at: \(index): chosen index not in the cards")
         if !cards[index].isMatched {
             if let matchIndex = indexOfOneAndOnlyFaceUpCard, matchIndex != index {
                 if cards[matchIndex].identifier == cards[index].identifier {
@@ -59,6 +61,7 @@ class Concetration {
     }
     
     func getCard(at index: Int) -> Card {
+        assert(cards.indices.contains(index), "Concetration#getCard(at: \(index): chosen index not in the cards")
         return cards[index]
     }
     

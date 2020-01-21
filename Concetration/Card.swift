@@ -9,15 +9,15 @@
 
 struct Card {
     
-    var identifier: Int
+    private(set) var identifier: Int
     
     var isFaceUp: Bool
     
     var isMatched: Bool
     
-    static var identifierFactory = 0
+    private static var identifierFactory = 0
     
-    static func getUniqueIdentifier() -> Int {
+    private static func getUniqueIdentifier() -> Int {
         identifierFactory += 1
         return identifierFactory
     }
