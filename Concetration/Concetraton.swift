@@ -13,15 +13,17 @@ class Concetration {
     
     private var indexOfOneAndOnlyFaceUpCard: Int? {
         get {
-            var faceUpCardsCount = 0
             var oneAndOnlyFaceUpCardIndex: Int?
             for index in cards.indices {
                 if cards[index].isFaceUp {
-                    faceUpCardsCount += 1
-                    oneAndOnlyFaceUpCardIndex = index
+                    if oneAndOnlyFaceUpCardIndex == nil {
+                        oneAndOnlyFaceUpCardIndex = index
+                    } else {
+                        return nil
+                    }
                 }
             }
-            return faceUpCardsCount > 1 ? nil : oneAndOnlyFaceUpCardIndex
+            return oneAndOnlyFaceUpCardIndex
         }
         set {
             if newValue == nil {
