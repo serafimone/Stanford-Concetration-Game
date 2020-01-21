@@ -12,7 +12,28 @@ class Concetration {
     
     private var cards = [Card]()
     
-    private var indexOfOneAndOnlyFaceUpCard: Int?
+    private var indexOfOneAndOnlyFaceUpCard: Int? {
+        get {
+            var faceUpCardsCount = 0
+            var oneAndOnlyFaceUpCardIndex: Int?
+            for index in cards.indices {
+                if cards[index].isFaceUp {
+                    faceUpCardsCount += 1
+                    oneAndOnlyFaceUpCardIndex = index
+                }
+            }
+            return faceUpCardsCount > 1 ? nil : oneAndOnlyFaceUpCardIndex
+        }
+        set {
+            if newValue == nil {
+                return
+            }
+            for flipDownIndexes in cards.indices {
+                cards[flipDownIndexes].isFaceUp = false
+            }
+            cards[newValue!].isFaceUp = true
+        }
+    }
     
     init(numberOfPairsOfCards: Int) {
         for _ in 0..<numberOfPairsOfCards {
@@ -25,19 +46,13 @@ class Concetration {
     
     func chooseCard(at index: Int) {
         if !cards[index].isMatched {
-            
             if let matchIndex = indexOfOneAndOnlyFaceUpCard, matchIndex != index {
                 if cards[matchIndex].identifier == cards[index].identifier {
                     cards[matchIndex].isMatched = true
                     cards[index].isMatched = true
                 }
                 cards[index].isFaceUp = true
-                indexOfOneAndOnlyFaceUpCard = nil
             } else {
-                for flipDownIndexes in cards.indices {
-                    cards[flipDownIndexes].isFaceUp = false
-                }
-                cards[index].isFaceUp = true
                 indexOfOneAndOnlyFaceUpCard = index
             }
         }
