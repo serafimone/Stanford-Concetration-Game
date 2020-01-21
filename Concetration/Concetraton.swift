@@ -29,10 +29,9 @@ class Concetration {
             if newValue == nil {
                 return
             }
-            for flipDownIndexes in cards.indices {
-                cards[flipDownIndexes].isFaceUp = false
+            for index in cards.indices {
+                cards[index].isFaceUp = (index == newValue)
             }
-            cards[newValue!].isFaceUp = true
         }
     }
     
