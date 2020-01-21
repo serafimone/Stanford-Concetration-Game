@@ -6,7 +6,6 @@
 //  Copyright © 2020 Nikita Babarykin. All rights reserved.
 //
 
-import Foundation
 
 struct Card {
     
