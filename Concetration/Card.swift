@@ -7,9 +7,9 @@
 //
 
 
-struct Card {
+struct Card: Hashable {
     
-    private(set) var identifier: Int
+    private var identifier: Int
     
     var isFaceUp: Bool
     
@@ -20,6 +20,14 @@ struct Card {
     private static func getUniqueIdentifier() -> Int {
         identifierFactory += 1
         return identifierFactory
+    }
+    
+    static func == (lhs: Card, rhs: Card) -> Bool {
+        return lhs.identifier == rhs.identifier
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(identifier)
     }
     
     init() {

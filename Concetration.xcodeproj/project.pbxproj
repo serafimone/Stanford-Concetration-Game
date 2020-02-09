@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D306A02A23D75DFB00E7EADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D306A02923D75DFB00E7EADA /* AppDelegate.swift */; };
 		D306A02C23D75DFB00E7EADA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D306A02B23D75DFB00E7EADA /* SceneDelegate.swift */; };
-		D306A02E23D75DFB00E7EADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D306A02D23D75DFB00E7EADA /* ViewController.swift */; };
+		D306A02E23D75DFB00E7EADA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D306A02D23D75DFB00E7EADA /* GameViewController.swift */; };
 		D306A03123D75DFC00E7EADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D306A02F23D75DFC00E7EADA /* Main.storyboard */; };
 		D306A03323D75E1700E7EADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D306A03223D75E1700E7EADA /* Assets.xcassets */; };
 		D306A03623D75E1700E7EADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D306A03423D75E1700E7EADA /* LaunchScreen.storyboard */; };
@@ -17,6 +17,10 @@
 		D306A04C23D75E1900E7EADA /* ConcetrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D306A04B23D75E1900E7EADA /* ConcetrationUITests.swift */; };
 		D3CB2B4A23D76D740063BC57 /* Concetraton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CB2B4923D76D740063BC57 /* Concetraton.swift */; };
 		D3CB2B4C23D76D920063BC57 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CB2B4B23D76D920063BC57 /* Card.swift */; };
+		D3CB2B4F23F088260063BC57 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CB2B4E23F088260063BC57 /* Theme.swift */; };
+		D3CB2B5223F095820063BC57 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CB2B5123F095820063BC57 /* MoreViewController.swift */; };
+		D3CB2B5523F0AE4A0063BC57 /* UIThemeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CB2B5423F0AE4A0063BC57 /* UIThemeButton.swift */; };
+		D3CB2B5723F0B7030063BC57 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CB2B5623F0B7030063BC57 /* ThemeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,7 @@
 		D306A02623D75DFB00E7EADA /* Concetration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concetration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D306A02923D75DFB00E7EADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../Concetration/AppDelegate.swift; sourceTree = "<group>"; };
 		D306A02B23D75DFB00E7EADA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../Concetration/SceneDelegate.swift; sourceTree = "<group>"; };
-		D306A02D23D75DFB00E7EADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D306A02D23D75DFB00E7EADA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D306A03023D75DFC00E7EADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D306A03223D75E1700E7EADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D306A03523D75E1700E7EADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +57,10 @@
 		D306A04D23D75E1900E7EADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3CB2B4923D76D740063BC57 /* Concetraton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concetraton.swift; sourceTree = "<group>"; };
 		D3CB2B4B23D76D920063BC57 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		D3CB2B4E23F088260063BC57 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		D3CB2B5123F095820063BC57 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		D3CB2B5423F0AE4A0063BC57 /* UIThemeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIThemeButton.swift; sourceTree = "<group>"; };
+		D3CB2B5623F0B7030063BC57 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +112,10 @@
 		D306A02823D75DFB00E7EADA /* Concetration */ = {
 			isa = PBXGroup;
 			children = (
+				D3CB2B5323F0AE1E0063BC57 /* Controls */,
+				D3CB2B5023F0955A0063BC57 /* ViewControllers */,
+				D3CB2B4D23F087EC0063BC57 /* Theme */,
 				D306A03423D75E1700E7EADA /* LaunchScreen.storyboard */,
-				D306A02D23D75DFB00E7EADA /* ViewController.swift */,
 				D3CB2B4923D76D740063BC57 /* Concetraton.swift */,
 				D306A02F23D75DFC00E7EADA /* Main.storyboard */,
 				D306A03723D75E1700E7EADA /* Info.plist */,
@@ -140,6 +150,32 @@
 				D306A03223D75E1700E7EADA /* Assets.xcassets */,
 			);
 			path = "Support files";
+			sourceTree = "<group>";
+		};
+		D3CB2B4D23F087EC0063BC57 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				D3CB2B4E23F088260063BC57 /* Theme.swift */,
+				D3CB2B5623F0B7030063BC57 /* ThemeManager.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		D3CB2B5023F0955A0063BC57 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D306A02D23D75DFB00E7EADA /* GameViewController.swift */,
+				D3CB2B5123F095820063BC57 /* MoreViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D3CB2B5323F0AE1E0063BC57 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				D3CB2B5423F0AE4A0063BC57 /* UIThemeButton.swift */,
+			);
+			path = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3CB2B5223F095820063BC57 /* MoreViewController.swift in Sources */,
 				D3CB2B4A23D76D740063BC57 /* Concetraton.swift in Sources */,
-				D306A02E23D75DFB00E7EADA /* ViewController.swift in Sources */,
+				D306A02E23D75DFB00E7EADA /* GameViewController.swift in Sources */,
+				D3CB2B5523F0AE4A0063BC57 /* UIThemeButton.swift in Sources */,
 				D3CB2B4C23D76D920063BC57 /* Card.swift in Sources */,
+				D3CB2B5723F0B7030063BC57 /* ThemeManager.swift in Sources */,
+				D3CB2B4F23F088260063BC57 /* Theme.swift in Sources */,
 				D306A02A23D75DFB00E7EADA /* AppDelegate.swift in Sources */,
 				D306A02C23D75DFB00E7EADA /* SceneDelegate.swift in Sources */,
 			);

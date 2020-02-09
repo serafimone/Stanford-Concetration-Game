@@ -7,23 +7,13 @@
 //
 
 
-class Concetration {
+struct Concetration {
     
     private var cards = [Card]()
     
     private var indexOfOneAndOnlyFaceUpCard: Int? {
         get {
-            var oneAndOnlyFaceUpCardIndex: Int?
-            for index in cards.indices {
-                if cards[index].isFaceUp {
-                    if oneAndOnlyFaceUpCardIndex == nil {
-                        oneAndOnlyFaceUpCardIndex = index
-                    } else {
-                        return nil
-                    }
-                }
-            }
-            return oneAndOnlyFaceUpCardIndex
+            return cards.indices.filter { cards[$0].isFaceUp }.oneAndOnly
         }
         set {
             if newValue == nil {
@@ -45,11 +35,11 @@ class Concetration {
         cards.shuffle(using: &generator)
     }
     
-    func chooseCard(at index: Int) {
+    mutating func chooseCard(at index: Int) {
         assert(cards.indices.contains(index), "Concetration#chooseCard(at: \(index): chosen index not in the cards")
         if !cards[index].isMatched {
             if let matchIndex = indexOfOneAndOnlyFaceUpCard, matchIndex != index {
-                if cards[matchIndex].identifier == cards[index].identifier {
+                if cards[matchIndex] == cards[index]{
                     cards[matchIndex].isMatched = true
                     cards[index].isMatched = true
                 }
@@ -63,6 +53,14 @@ class Concetration {
     func getCard(at index: Int) -> Card {
         assert(cards.indices.contains(index), "Concetration#getCard(at: \(index): chosen index not in the cards")
         return cards[index]
+    }
+    
+}
+
+extension Collection {
+    
+    var oneAndOnly: Element? {
+        return count == 1 ? first : nil
     }
     
 }
