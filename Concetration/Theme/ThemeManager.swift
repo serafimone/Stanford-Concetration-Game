@@ -34,9 +34,15 @@ class ThemeManager {
         }
     }
     
+    static func getEmojis() -> String {
+        return currentTheme?.colors.emojiChoices ?? ""
+    }
+    
     static private func setColors() {
-        UIButton.appearance().backgroundColor = currentTheme?.colors.cardColor
-        UITabBar.appearance().barTintColor = currentTheme?.colors.backgroundColor
+        CardButton.appearance().backgroundColor = currentTheme?.colors.cardColor
+        AppView.appearance().backgroundColor = currentTheme?.colors.backgroundColor
+        UILabel.appearance().backgroundColor = currentTheme?.colors.backgroundColor
+        //UITabBar.appearance().barTintColor = currentTheme?.colors.backgroundColor
     }
 
 }

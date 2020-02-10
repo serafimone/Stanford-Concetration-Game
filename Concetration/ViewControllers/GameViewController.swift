@@ -33,9 +33,15 @@ class GameViewController: UIViewController {
     
     @IBOutlet private var cardsButtons: [UIButton]!
     
-    private var emojiChoices = "🤡👻💀🧟‍♀️🤖☠️😼😈"
+    private var emojiChoices = ""
     
     private var emoji = [Card:String]()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        emojiChoices = ThemeManager.getEmojis()
+    }
     
     @IBAction private func touchCard(_ sender: UIButton) {
         if let cardNumber = cardsButtons.firstIndex(of: sender) {
