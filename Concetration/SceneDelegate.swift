@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let _ = (scene as? UIWindowScene) else { return }
         
         ThemeManager.window = window
-        ThemeManager.setTheme(to: .sport)
+        ThemeManager.setTheme(to: .halloween)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

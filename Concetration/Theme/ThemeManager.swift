@@ -42,6 +42,8 @@ class ThemeManager {
         CardButton.appearance().backgroundColor = currentTheme?.colors.cardColor
         AppView.appearance().backgroundColor = currentTheme?.colors.backgroundColor
         UILabel.appearance().backgroundColor = currentTheme?.colors.backgroundColor
+        UITableView.appearance().backgroundColor = currentTheme?.colors.backgroundColor
+        UITableViewCell.appearance().backgroundColor = currentTheme?.colors.backgroundColor
     }
 
 }
