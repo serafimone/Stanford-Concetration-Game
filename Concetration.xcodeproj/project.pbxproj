@@ -22,6 +22,8 @@
 		D3CB2B5723F0B7030063BC57 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CB2B5623F0B7030063BC57 /* ThemeManager.swift */; };
 		D3F89BC023F201D7008CCE6A /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F89BBF23F201D7008CCE6A /* AppView.swift */; };
 		D3F89BC223F201FE008CCE6A /* CardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F89BC123F201FE008CCE6A /* CardButton.swift */; };
+		D3F89BC423FC7ECE008CCE6A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F89BC323FC7ECE008CCE6A /* SettingsViewController.swift */; };
+		D3F89BC623FC8819008CCE6A /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F89BC523FC8819008CCE6A /* SettingsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		D3CB2B5623F0B7030063BC57 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		D3F89BBF23F201D7008CCE6A /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		D3F89BC123F201FE008CCE6A /* CardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardButton.swift; sourceTree = "<group>"; };
+		D3F89BC323FC7ECE008CCE6A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D3F89BC523FC8819008CCE6A /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				D306A02D23D75DFB00E7EADA /* GameViewController.swift */,
+				D3F89BC323FC7ECE008CCE6A /* SettingsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 				D3CB2B5423F0AE4A0063BC57 /* UIThemeButton.swift */,
 				D3F89BBF23F201D7008CCE6A /* AppView.swift */,
 				D3F89BC123F201FE008CCE6A /* CardButton.swift */,
+				D3F89BC523FC8819008CCE6A /* SettingsTableViewCell.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -322,12 +328,14 @@
 			files = (
 				D3CB2B4A23D76D740063BC57 /* Concetraton.swift in Sources */,
 				D306A02E23D75DFB00E7EADA /* GameViewController.swift in Sources */,
+				D3F89BC423FC7ECE008CCE6A /* SettingsViewController.swift in Sources */,
 				D3F89BC023F201D7008CCE6A /* AppView.swift in Sources */,
 				D3CB2B5523F0AE4A0063BC57 /* UIThemeButton.swift in Sources */,
 				D3CB2B4C23D76D920063BC57 /* Card.swift in Sources */,
 				D3CB2B5723F0B7030063BC57 /* ThemeManager.swift in Sources */,
 				D3CB2B4F23F088260063BC57 /* Theme.swift in Sources */,
 				D306A02A23D75DFB00E7EADA /* AppDelegate.swift in Sources */,
+				D3F89BC623FC8819008CCE6A /* SettingsTableViewCell.swift in Sources */,
 				D306A02C23D75DFB00E7EADA /* SceneDelegate.swift in Sources */,
 				D3F89BC223F201FE008CCE6A /* CardButton.swift in Sources */,
 			);
