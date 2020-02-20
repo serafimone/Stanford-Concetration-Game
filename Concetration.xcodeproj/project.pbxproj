@@ -24,6 +24,7 @@
 		D3F89BC223F201FE008CCE6A /* CardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F89BC123F201FE008CCE6A /* CardButton.swift */; };
 		D3F89BC423FC7ECE008CCE6A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F89BC323FC7ECE008CCE6A /* SettingsViewController.swift */; };
 		D3F89BC623FC8819008CCE6A /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F89BC523FC8819008CCE6A /* SettingsTableViewCell.swift */; };
+		D3F89BCE23FF3E80008CCE6A /* UICounterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F89BCD23FF3E7F008CCE6A /* UICounterLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		D3F89BC123F201FE008CCE6A /* CardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardButton.swift; sourceTree = "<group>"; };
 		D3F89BC323FC7ECE008CCE6A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D3F89BC523FC8819008CCE6A /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		D3F89BCD23FF3E7F008CCE6A /* UICounterLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICounterLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 				D3F89BBF23F201D7008CCE6A /* AppView.swift */,
 				D3F89BC123F201FE008CCE6A /* CardButton.swift */,
 				D3F89BC523FC8819008CCE6A /* SettingsTableViewCell.swift */,
+				D3F89BCD23FF3E7F008CCE6A /* UICounterLabel.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 			files = (
 				D3CB2B4A23D76D740063BC57 /* Concetraton.swift in Sources */,
 				D306A02E23D75DFB00E7EADA /* GameViewController.swift in Sources */,
+				D3F89BCE23FF3E80008CCE6A /* UICounterLabel.swift in Sources */,
 				D3F89BC423FC7ECE008CCE6A /* SettingsViewController.swift in Sources */,
 				D3F89BC023F201D7008CCE6A /* AppView.swift in Sources */,
 				D3CB2B5523F0AE4A0063BC57 /* UIThemeButton.swift in Sources */,

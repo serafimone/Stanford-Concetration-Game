@@ -41,9 +41,12 @@ class ThemeManager {
     static private func setColors() {
         CardButton.appearance().backgroundColor = currentTheme?.colors.cardColor
         AppView.appearance().backgroundColor = currentTheme?.colors.backgroundColor
-        UILabel.appearance().backgroundColor = currentTheme?.colors.backgroundColor
+        UICounterLabel.appearance().textColor = currentTheme?.colors.cardColor
         UITableView.appearance().backgroundColor = currentTheme?.colors.backgroundColor
         UITableViewCell.appearance().backgroundColor = currentTheme?.colors.backgroundColor
+        UINavigationBar.appearance().barTintColor = currentTheme?.colors.backgroundColor
+        UINavigationBar.appearance().backgroundColor = currentTheme?.colors.backgroundColor
+        UINavigationBar.appearance().tintColor = currentTheme?.colors.cardColor
     }
 
 }

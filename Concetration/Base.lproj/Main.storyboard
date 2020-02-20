@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="w6S-nN-QSL">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -16,13 +16,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3a1-th-70a">
-                                <rect key="frame" x="16" y="113.99999999999997" width="343" height="505.33333333333326"/>
+                                <rect key="frame" x="16" y="108" width="343" height="561.33333333333337"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="guD-jj-CAZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="119"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="133"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19e-co-u6C" customClass="CardButton" customModule="Concetration" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="78.333333333333329" height="119"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="78.333333333333329" height="133"/>
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                 <connections>
@@ -30,7 +30,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6V-1E-D38" customClass="CardButton" customModule="Concetration" customModuleProvider="target">
-                                                <rect key="frame" x="88.333333333333343" y="0.0" width="78.333333333333343" height="119"/>
+                                                <rect key="frame" x="88.333333333333343" y="0.0" width="78.333333333333343" height="133"/>
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                 <connections>
@@ -38,7 +38,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cbg-EN-cRP" customClass="CardButton" customModule="Concetration" customModuleProvider="target">
-                                                <rect key="frame" x="176.66666666666666" y="0.0" width="78" height="119"/>
+                                                <rect key="frame" x="176.66666666666666" y="0.0" width="78" height="133"/>
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                 <connections>
@@ -46,7 +46,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYw-mw-gEP" customClass="CardButton" customModule="Concetration" customModuleProvider="target">
-                                                <rect key="frame" x="264.66666666666669" y="0.0" width="78.333333333333314" height="119"/>
+                                                <rect key="frame" x="264.66666666666669" y="0.0" width="78.333333333333314" height="133"/>
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                 <connections>
@@ -56,10 +56,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="eJP-8B-Zqa">
-                                        <rect key="frame" x="0.0" y="129" width="343" height="118.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="143" width="343" height="132.66666666666663"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQY-T5-V1U" customClass="CardButton" customModule="Concetration" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="78.333333333333329" height="118.66666666666667"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="78.333333333333329" height="132.66666666666666"/>
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                 <connections>
@@ -67,7 +67,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q2O-fl-Iu9" customClass="CardButton" customModule="Concetration" customModuleProvider="target">
-                                                <rect key="frame" x="88.333333333333343" y="0.0" width="78.333333333333343" height="118.66666666666667"/>
+                                                <rect key="frame" x="88.333333333333343" y="0.0" width="78.333333333333343" height="132.66666666666666"/>
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                 <connections>
@@ -75,7 +75,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QxV-m5-VMT" customClass="CardButton" customModule="Concetration" customModuleProvider="target">
-                                                <rect key="frame" x="176.66666666666666" y="0.0" width="78" height="118.66666666666667"/>
+                                                <rect key="frame" x="176.66666666666666" y="0.0" width="78" height="132.66666666666666"/>
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                 <connections>
@@ -83,7 +83,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWm-KG-l1r" customClass="CardButton" customModule="Concetration" customModuleProvider="target">
-                                                <rect key="frame" x="264.66666666666669" y="0.0" width="78.333333333333314" height="118.66666666666667"/>
+                                                <rect key="frame" x="264.66666666666669" y="0.0" width="78.333333333333314" height="132.66666666666666"/>
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                 <connections>
@@ -93,10 +93,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="VrV-t6-Kgp">
-                                        <rect key="frame" x="0.0" y="257.66666666666669" width="343" height="119"/>
+                                        <rect key="frame" x="0.0" y="285.66666666666669" width="343" height="133"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKx-VF-i60" customClass="CardButton" customModule="Concetration" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="78.333333333333329" height="119"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="78.333333333333329" height="133"/>
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                 <connections>
@@ -104,7 +104,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NX6-R1-uoi" customClass="CardButton" customModule="Concetration" customModuleProvider="target">
-                                                <rect key="frame" x="88.333333333333343" y="0.0" width="78.333333333333343" height="119"/>
+                                                <rect key="frame" x="88.333333333333343" y="0.0" width="78.333333333333343" height="133"/>
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                 <connections>
@@ -112,7 +112,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6W-Kj-hiX" customClass="CardButton" customModule="Concetration" customModuleProvider="target">
-                                                <rect key="frame" x="176.66666666666666" y="0.0" width="78" height="119"/>
+                                                <rect key="frame" x="176.66666666666666" y="0.0" width="78" height="133"/>
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                 <connections>
@@ -120,7 +120,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cw-UV-lMq" customClass="CardButton" customModule="Concetration" customModuleProvider="target">
-                                                <rect key="frame" x="264.66666666666669" y="0.0" width="78.333333333333314" height="119"/>
+                                                <rect key="frame" x="264.66666666666669" y="0.0" width="78.333333333333314" height="133"/>
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                 <connections>
@@ -130,10 +130,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="frL-QI-fdH">
-                                        <rect key="frame" x="0.0" y="386.66666666666669" width="343" height="118.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="428.66666666666663" width="343" height="132.66666666666663"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bpn-UW-7Hv" customClass="CardButton" customModule="Concetration" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="78.333333333333329" height="118.66666666666667"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="78.333333333333329" height="132.66666666666666"/>
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                 <connections>
@@ -141,7 +141,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qar-Vd-f0J" customClass="CardButton" customModule="Concetration" customModuleProvider="target">
-                                                <rect key="frame" x="88.333333333333343" y="0.0" width="78.333333333333343" height="118.66666666666667"/>
+                                                <rect key="frame" x="88.333333333333343" y="0.0" width="78.333333333333343" height="132.66666666666666"/>
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                 <connections>
@@ -149,7 +149,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jmt-eF-xv1" customClass="CardButton" customModule="Concetration" customModuleProvider="target">
-                                                <rect key="frame" x="176.66666666666666" y="0.0" width="78" height="118.66666666666667"/>
+                                                <rect key="frame" x="176.66666666666666" y="0.0" width="78" height="132.66666666666666"/>
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                 <connections>
@@ -157,7 +157,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mOT-Yi-BPk" customClass="CardButton" customModule="Concetration" customModuleProvider="target">
-                                                <rect key="frame" x="264.66666666666669" y="0.0" width="78.333333333333314" height="118.66666666666667"/>
+                                                <rect key="frame" x="264.66666666666669" y="0.0" width="78.333333333333314" height="132.66666666666666"/>
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                 <connections>
@@ -168,42 +168,25 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flips: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHf-pa-kGk">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flips: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHf-pa-kGk" customClass="UICounterLabel" customModule="Concetration" customModuleProvider="target">
                                 <rect key="frame" x="112.33333333333333" y="719.33333333333337" width="150.66666666666669" height="58.666666666666629"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="49"/>
                                 <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="ixV-hF-j9f">
-                                <rect key="frame" x="16" y="56" width="343" height="50"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qo-Oc-Li8">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                        <state key="normal" image="icons8-reset-50"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3NT-0o-Es9">
-                                        <rect key="frame" x="293" y="0.0" width="50" height="50"/>
-                                        <state key="normal" image="icons8-settings-50"/>
-                                        <connections>
-                                            <segue destination="w6S-nN-QSL" kind="presentation" modalPresentationStyle="automatic" id="mv3-yP-lQe"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ixV-hF-j9f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Buz-TN-3j6"/>
-                            <constraint firstItem="ixV-hF-j9f" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="HIa-1e-8Xa"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="ixV-hF-j9f" secondAttribute="trailing" constant="16" id="QF4-9W-3hp"/>
-                            <constraint firstItem="sHf-pa-kGk" firstAttribute="top" relation="lessThanOrEqual" secondItem="3a1-th-70a" secondAttribute="bottom" constant="100" id="WVR-jV-HeG"/>
+                            <constraint firstItem="sHf-pa-kGk" firstAttribute="top" relation="lessThanOrEqual" secondItem="3a1-th-70a" secondAttribute="bottom" constant="50" id="WVR-jV-HeG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3a1-th-70a" secondAttribute="trailing" constant="16" id="d0K-R9-jPR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sHf-pa-kGk" secondAttribute="bottom" id="mAn-Pz-yEC"/>
-                            <constraint firstItem="3a1-th-70a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="qAV-Ld-Ab1"/>
+                            <constraint firstItem="3a1-th-70a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="qAV-Ld-Ab1"/>
                             <constraint firstItem="sHf-pa-kGk" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="zBc-fr-3vK"/>
                             <constraint firstItem="3a1-th-70a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="zpB-Pv-Otr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="tFj-tx-ZUN"/>
                     <connections>
                         <outlet property="flipsCountLabel" destination="sHf-pa-kGk" id="VAK-jM-7K9"/>
                         <outletCollection property="cardsButtons" destination="19e-co-u6C" collectionClass="NSMutableArray" id="1Nw-wR-SgT"/>
@@ -231,9 +214,9 @@
         <!--Root View Controller-->
         <scene sceneID="uAJ-P9-eVD">
             <objects>
-                <tableViewController id="s0C-0w-4sv" customClass="SettingsViewController" customModule="Concetration" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="SettingsViewController" id="s0C-0w-4sv" customClass="SettingsViewController" customModule="Concetration" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="nH5-hZ-LoQ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <sections/>
@@ -246,7 +229,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CP8-oE-kxi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="595" y="794"/>
+            <point key="canvasLocation" x="1068" y="94"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bjw-dV-aNZ">
@@ -254,21 +237,17 @@
                 <navigationController id="w6S-nN-QSL" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="l3O-H3-ZtT"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Gnh-Qq-4zD">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
                         <outlet property="navigationBar" destination="Gnh-Qq-4zD" id="Gk1-hO-GhK"/>
-                        <segue destination="s0C-0w-4sv" kind="relationship" relationship="rootViewController" id="62h-NF-F67"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3tN-FU-zeo"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uBK-L6-bsp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-357" y="794"/>
+            <point key="canvasLocation" x="-775" y="94"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="icons8-reset-50" width="50" height="50"/>
-        <image name="icons8-settings-50" width="50" height="50"/>
-    </resources>
 </document>

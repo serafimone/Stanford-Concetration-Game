@@ -13,13 +13,12 @@ class SettingsViewController: UITableViewController {
     
     private final let cellClass = "SettingsTableViewCell"
     
-    private let data: [String:UITableViewCell.AccessoryType] = ["Theme": .disclosureIndicator , "Version": .none, "About": .none]
+    private let data: [String] = ["Theme", "Version", "About"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "Settings"
-        self.navigationController?.navigationBar.prefersLargeTitles = true
-        
+        //self.navigationController?.navigationBar.prefersLargeTitles = true
         self.tableView.register(SettingsTableViewCell.self, forCellReuseIdentifier: cellClass)
         self.tableView.dataSource = self
     }
@@ -35,13 +34,9 @@ class SettingsViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = self.tableView.dequeueReusableCell(withIdentifier: cellClass, for: indexPath) as! SettingsTableViewCell
-        let tableTitle = getTableRowTitle(on: indexPath.row)
+        let tableTitle = data[indexPath.row]
         cell.textLabel?.text = tableTitle
-        cell.accessoryType = data[tableTitle] ?? .none;
+        cell.accessoryType = indexPath.row == 0 ? .disclosureIndicator : .none
         return cell;
-    }
-    
-    private func getTableRowTitle(on indexPath: Int) -> String {
-        return Array(self.data.keys)[indexPath];
     }
 }

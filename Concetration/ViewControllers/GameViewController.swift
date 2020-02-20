@@ -40,7 +40,25 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let newGameButton = UIBarButtonItem(image: #imageLiteral(resourceName: "icons8-restart-50"), style: .plain, target: self, action: #selector(self.startNewGame))
+        self.navigationItem.setLeftBarButton(newGameButton, animated: true)
+        
+        let settingsButton = UIBarButtonItem(image: #imageLiteral(resourceName: "icons8-settings-50"), style: .plain, target: self, action: #selector(self.goToSettings))
+        self.navigationItem.setRightBarButton(settingsButton, animated: true)
+        
         emojiChoices = ThemeManager.getEmojis()
+    }
+    
+    @objc private func goToSettings(_ sender: UIBarButtonItem?) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "SettingsViewController")
+        self.navigationController?.pushViewController(vc!, animated: true)
+    }
+    
+    @objc private func startNewGame(_ sender: UIBarButtonItem?) {
+        game = Concetration(numberOfPairsOfCards: numberOfPairsOfCards)
+        flipsCounter = 0
+        emojiChoices = ThemeManager.getEmojis()
+        updateViewFromModel()
     }
     
     @IBAction private func touchCard(_ sender: UIButton) {
